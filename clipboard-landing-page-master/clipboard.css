@@ -1,0 +1,176 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+body {
+    font-family: "Bai Jamjuree" sans-serif;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-image: url(./images/bg-header-desktop.png);
+    background-position: top;
+    background-repeat: no-repeat;
+
+}
+.btn{
+    margin-top: 20px;
+}
+.btn :nth-child(1){
+    border-radius: 20px;
+    width: 200px;
+    background-color: hsl(171, 66%, 44%);
+    padding: 10px;
+    color: white;
+    border: 0;
+    box-shadow: 0px 2px 5px hsl(201, 7%, 41%);
+
+}
+.btn :nth-child(2){
+    border-radius: 20px;
+    width: 200px;
+    background-color: hsl(233, 100%, 69%);
+    padding: 10px;
+    color: white;
+    border: 0;
+    box-shadow: 0px 2px 5px hsl(201, 7%, 41%);
+}  
+button:hover{
+    cursor: pointer;
+}
+.mid {
+    display: flex;
+    flex-direction: row;
+}
+.mid2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    text-align: justify;
+    margin-top: 50px;
+}
+p {
+    opacity: 50%;
+}
+.track{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.guide{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.image3 {
+    width: 30px;
+    height: 30px;
+}
+.image4{
+    width: 30px;
+    height: 30px;
+}
+.image5{
+    width: 30px;
+    height: 30px;
+
+}
+.lower{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    background-color: whitesmoke;
+    padding: 40px;
+    
+    
+}
+.fac{
+    text-align: justify;
+    margin-left: 50px;
+}
+.priv{
+    text-align: justify;
+    margin-left: 50px;
+
+}
+.inst{
+    text-align: justify;
+    margin-left: 20px;
+
+}
+.image2{
+    margin-left: -200px;
+}
+.ft{
+    position: relative;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    margin-right: 70px;
+}
+.ftimage{
+    margin-left: 250px;
+    padding-top: 20px;
+    margin-right: 50px;
+}
+.imag1{
+    padding-top: 70px;
+}
+span:hover{
+    color: hsl(171, 66%, 44%);
+    cursor: pointer;
+}
+.img :nth-child(1){
+    margin-right: 50px;
+}
+.img :nth-child(2){
+    margin-right: 50px;
+}
+.img :nth-child(3){
+    margin-right: 50px;
+}
+.img :nth-child(4){
+    margin-right: 50px;
+}
+.img{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.guide1{
+    margin-right: 20px;
+}
+.guide2{
+    margin-right: 20px;
+}
+
+#facebook {
+    font-size: 30px;
+}
+#twitter {
+    font-size: 30px;
+}
+#instagram {
+    font-size: 30px;
+}
+
+.facebook:hover {
+    color: hsl(171, 66%, 44%);
+    cursor: pointer;
+}
+.twitter:hover {
+    color: hsl(171, 66%, 44%);
+    cursor: pointer;
+}
+.instagram:hover{
+    color: hsl(171, 66%, 44%);
+    cursor: pointer;
+}
+@media screen and(max-width: 375px){
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+}
+    
